@@ -1,0 +1,15 @@
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\TexasHoledem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\TexasHoledem.AssemblyInfoInputs.cache
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\TexasHoledem.AssemblyInfo.cs
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\TexasHoledem.csproj.CoreCompileInputs.cache
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\TexasHoledem.sourcelink.json
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\bin\Debug\net9.0\TexasHoledem.exe
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\bin\Debug\net9.0\TexasHoledem.deps.json
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\bin\Debug\net9.0\TexasHoledem.runtimeconfig.json
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\bin\Debug\net9.0\TexasHoledem.dll
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\bin\Debug\net9.0\TexasHoledem.pdb
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\TexasHoledem.dll
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\refint\TexasHoledem.dll
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\TexasHoledem.pdb
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\TexasHoledem.genruntimeconfig.cache
+C:\Users\PC_User\Desktop\texsas_holdem_min\TexasHoledem\obj\Debug\net9.0\ref\TexasHoledem.dll
