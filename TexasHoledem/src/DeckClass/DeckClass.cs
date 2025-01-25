@@ -18,6 +18,21 @@ namespace DeckClass
                     DeckCardList.Add(new Card(number, cardtype, false));
                 }
             }
+            ShuffleDeck();
+        }
+
+        public void ShuffleDeck()
+        {
+            Random rand = new Random();
+            int n = DeckCardList.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = rand.Next(n + 1); // 0 から n までのランダムなインデックス
+                var value = DeckCardList[k];
+                DeckCardList[k] = DeckCardList[n];
+                DeckCardList[n] = value;
+            }
         }
 
         public List<Card> GetDeckCardList()
