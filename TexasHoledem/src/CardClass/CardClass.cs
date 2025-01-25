@@ -2,13 +2,28 @@ namespace CardClass
 {
     public class Card
     {
+        public enum CardType
+        {
+            Hearts,
+            Diamonds,
+            Clubs,
+            Spade
+        }
+
+        public class IsNotCorrectNumber : Exception
+        {
+            public IsNotCorrectNumber(string message) : base(message)
+            {
+
+            }
+        }
         private int Number;
-        private string Style;
+        private CardType Style;
         private bool Status;
 
-        public Card(int cardnumber, string style, bool status)
+        public Card(int cardnumber, CardType style, bool status)
         {
-            Number = cardnumber;
+            SetNumber(cardnumber);
             Style = style;
             Status = status;
         }
@@ -18,7 +33,16 @@ namespace CardClass
             return Number;
         }
 
-        public string GetStyle()
+        private void SetNumber(int cardnumber)
+        {
+            if (!(1 <= cardnumber && cardnumber <= 13))
+            {
+                throw new IsNotCorrectNumber("card numberには1~13の値を入れてください");
+            }
+            Number = cardnumber;
+        }
+
+        public CardType GetStyle()
         {
             return Style;
         }

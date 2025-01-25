@@ -7,5 +7,6 @@ class Program
     {
         var test = new CardClassTest();
         test.NewMakeCardClass();
+        test.IsCardClassFalseNumber();
     }
 }
