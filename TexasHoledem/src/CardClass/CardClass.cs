@@ -7,7 +7,7 @@ namespace CardClass
             Hearts,
             Diamonds,
             Clubs,
-            Spade
+            Spades
         }
 
         public class IsNotCorrectNumber : Exception
