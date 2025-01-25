@@ -1,22 +1,25 @@
 using CardClass;
 
-public class TableClass
+namespace TableClass
 {
-    public int MinBetMoney
+    public class Table
     {
-        get;
-        set;
-    }
+        public int MinBetMoney
+        {
+            get;
+            set;
+        }
 
-    private Card[] TableCards 
-    { 
-        get; 
-        set; 
-    }
+        private Card[] TableCards = new Card[5];
 
-    public TableClass(int min_betmoney)
-    {
-        TableCards = [];
-        MinBetMoney = min_betmoney;
+        public Table(int min_betmoney)
+        {
+            MinBetMoney = min_betmoney;
+        }
+
+        public void SetTableCards(int number, Card opend_card)
+        {
+            TableCards[number] = opend_card;
+        }
     }
 }

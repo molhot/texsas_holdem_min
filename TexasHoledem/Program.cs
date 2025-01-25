@@ -11,5 +11,8 @@ class Program
 
         var test_2 = new DeckClassTest();
         test_2.NewMakeDeckClass();
+
+        var test_3 = new TableClassTest();
+        test_3.NewMakeTableClass();
     }
 }
